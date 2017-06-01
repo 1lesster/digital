@@ -1,0 +1,213 @@
+@font-face {
+    font-family: DINNextCYR-Light;
+    src: url(fonts/DINNextCYR-Light.0tf);
+   }
+*{
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	font-family: DINNextCYR-Light, sans-serif;
+	color: #fff;
+}
+h1,h2,h3,h4,h5,h6{margin:0;}
+a, a:active, a:focus{
+	text-decoration: none;
+}
+a{
+	color: #000;
+}
+ul{list-style: none;}
+header.main,
+footer{
+	background: #2F2E2E;
+	line-height: 60px;
+}
+.main-nav{
+	width: 100%;
+	text-align: center;
+}
+.main-nav > li{
+	display: inline-block;
+	margin: 0 30px;
+}
+.main-nav > li > a{
+	text-transform: uppercase;
+	color: #fff;
+	opacity: 1;
+	 -webkit-transition: ease-out 0.5s;
+     -moz-transition: ease-out 0.5s;
+     -o-transition: ease-out 0.5s;
+     transition: ease-out 0.5s;
+}
+.main-nav > li > a:hover{
+	opacity: .5;
+}
+.center-box{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%); /
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.main-section{
+	height: calc(100vh - 60px);
+	background: url('img/main-bg.png') 0 0 no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.main-section h1{
+	font-size: 32px;
+	margin: 20px 0;
+	text-transform: uppercase;
+	color: #fff;
+}
+.main-section .center-box a{
+	font-size: 24px;
+	color: #fff;
+}
+section.about{
+	background: url('img/naturalblack.png') 0 0 repeat;
+	min-height: 500px;
+	padding-top: 100px;
+}
+section h2{
+	color: #fff;
+	font-weight: 100;
+	font-size: 24px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+}
+section.black h2{
+	color: #000;
+}
+section.black h2:after{
+	background: #000;
+}
+section h2:after{
+	content: '';
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	top: 35px;
+	left: 50%;
+	margin-left: -15px;
+	background: #fff;
+}
+.about-list{
+	margin-top: 50px;
+	text-align: center;
+}
+.about-list > li{
+	display: inline-block;
+	margin: 0 20px;
+	width: 200px;
+}
+.about-icon{
+	display: block;
+	width: 100%;
+	line-height: 140px;
+	margin-bottom: 20px;
+}
+.about-icon img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.about-text{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+}
+section.price{
+	padding-top: 50px;
+	background: url('img/grid.png') 0 0 repeat;
+	overflow: hidden;
+}
+.table-wrap{
+	width: 800px;
+	margin: 50px auto;
+}
+.table-wrap > table{
+	width: 100%;
+}
+table td{
+	padding: 5px 0;
+	color: #000;
+}
+table tr > td:first-child{
+	width: 90%;
+}
+table tr > td:last-child{
+	text-align: center;
+}
+.contacts{
+	background: url('img/naturalblack.png') 0 0 repeat;
+	overflow: hidden;
+}
+.contacts-wrap{
+	width: 700px;
+	background: #fff;
+	margin: 100px auto;
+	padding-top: 30px;
+}
+.contacts .left-side,
+.contacts .right-side{
+	width: 50%;
+}
+.contacts .left-side{
+	float: left;
+}
+.contacts .right-side{
+	float: right;
+}
+.contacts-block{
+	overflow: hidden;
+	padding: 40px;
+}
+.contacts-block p{
+	color: #2F2E2E;
+	font-size: 17px;
+	font-weight: 100;
+	margin: 10px 0;
+}
+.p-block{
+	margin-bottom: 30px;
+}
+.back-up{
+	text-align: right;
+}
+.back-up input{
+	padding-left: 10px;
+}
+.back-up input,
+.back-up textarea{
+	width: 70%;
+	display: inline-block;
+	height: 30px;
+	margin-bottom: 15px;
+	border: 1px solid #000;
+	outline: none;
+}
+.back-up textarea{
+	min-height: 100px;
+	max-width: 70%;
+	padding: 10px;
+}
+.sub-btn{
+	height: 30px;
+	background: #2F2E2E;
+	color: #fff;
+	border: none;
+	outline: none;
+	width: 100px;
+	display: inline-block;
+}
